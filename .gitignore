@@ -1,0 +1,20 @@
+# Node modules (never upload these)
+node_modules/
+server/node_modules/
+client/node_modules/
+
+# Environment variables (SECRET - never upload)
+server/.env
+.env
+
+# React build folder
+client/build/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
