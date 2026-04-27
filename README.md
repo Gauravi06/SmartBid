@@ -148,11 +148,11 @@ Auction ──(winner)──▶ User
 
 | Concept | File | Syllabus Unit |
 |---|---|---|
-| Max Heap (custom) | `utils/BidHeap.js` | Unit III |
-| Hash Table + djb2 + Chaining + Rehashing | `utils/HashTable.js` | Unit III |
-| Graph (Adjacency List) + BFS (Iterative) | `utils/AuctionGraph.js` | Unit II |
-| Sliding Window | `utils/fraudCheck.js` | Unit III |
-| Dynamic Array | Mongoose models | Linear DS |
+| Max Heap (custom) | `utils/BidHeap.js` | 
+| Hash Table + djb2 + Chaining + Rehashing | `utils/HashTable.js` | 
+| Graph (Adjacency List) + BFS (Iterative) | `utils/AuctionGraph.js` |
+| Sliding Window | `utils/fraudCheck.js` | 
+| Dynamic Array | Mongoose models | 
 
 ---
 
