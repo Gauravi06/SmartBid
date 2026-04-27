@@ -14,18 +14,16 @@ const io = new Server(server, {
 app.use(cors());
 app.use(express.json());
 
-// Connect to MongoDB
 mongoose.connect(process.env.MONGO_URI)
   .then(() => console.log('MongoDB Connected ✅'))
   .catch((err) => console.log('DB Error:', err));
 
-// Routes
 app.use('/api/users', require('./routes/users'));
 app.use('/api/auctions', require('./routes/auctions'));
 app.use('/api/bids', require('./routes/bids'));
 app.use('/api/admin', require('./routes/admin'));
+app.use('/api/recommendations', require('./routes/recommendations'));
 
-// Socket.io
 io.on('connection', (socket) => {
   console.log('User connected:', socket.id);
 
