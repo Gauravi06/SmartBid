@@ -19,7 +19,8 @@ const AdminRoute = ({ children }) => {
   return user?.role === 'admin' ? children : <Navigate to="/auctions" />;
 };
 
-function App() {
+function App() 
+{
   return (
     <Router>
       <Routes>
