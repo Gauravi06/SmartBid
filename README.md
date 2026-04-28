@@ -4,7 +4,7 @@
 
 ## Overview
 
-SmartBid is a full-stack real-time auction platform where users can create auctions, place bids, and win items — all with live updates across browsers using WebSockets. The platform implements several core data structures from the ADSA syllabus directly in its business logic, not as isolated exercises.
+SmartBid is a full-stack real-time auction platform where users can create auctions, place bids, and win items — all with live updates across browsers using WebSockets. The platform implements several core data structures directly in its business logic.
 
 The system supports three auction types (English, Dutch, Sealed), automatic fraud detection, soft-close anti-sniping, and a BFS-powered recommendation engine.
 
